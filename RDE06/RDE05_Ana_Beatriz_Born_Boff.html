@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!---------------------------------------------------------HEAD--------------------------------------------------------------->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<!--------------      TÍTULO       ----------------->
+<title>Hyperlinks</title>
+<!------------      FIM TÍTULO       --------------->
+<!----------------------------------------------------------FIM HEAD---------------------------------------------------------->
+<!------------------------------------------------------------BODY------------------------------------------------------------>
+<body>
+    <h4>COMO UTILIZAR OS TIPOS DE HIPERLINKS</h4>
+    <h4>Hiperlinks Externos</h4>
+    <p>Os hyperlinks externos são links para páginas externas, ou seja, que está fora da página em questão, é uma página a parte. Para adicionarmos um link em nosso código<br> utilizamos a tag HREF (< a href=”link para a página”>Nome da Página< /a>).Essa tag pode ser usada para vários tipos de links como links de aúdio, vídeo, texto e imagem.
+    </p>
+        <h4><Propriedade TARGET></h4>
+        <p>Temos a opção de colocar a propriedade TARGET logo após o link, são duas opções, uma é target=”_blanck” para abrir em outra página, que ficaria assim <br>(< a href=”link para a página” target=”_blanck”>Nome da página< /a>) . A outra opção é target=”_self” para abrir na mesma página, que ficaria assim <br>(< a href=”link para a página” target=”_self”>Nome da página< /a>).</p>
+        <h4>Propriedade REL</h4>
+        <p>A propriedade REL (rel="external") informa se o link que aparece na página é externo, ela é utilizada também logo após a tag HREF que ficaria assim <br>(< a href="link para a página" target="_black" rel="external">Nome da página< /a>).</p>
+        <img src="IMG/sta-je-link.jpg" width="500" height="300">
+        <h4>HREFLANG</h4>
+        <p>HREFLANG (hreflang="linguagem do site") é utilizado para definir qual a linguagem que o site é, para caso a pesssoa prefira, ele faz a tradução automática. Então ficaria assim <br>(< a href="link da página" hreflang="a linguagem do site" target="_blanck" rel="external">Nome da página< /a>).
+            </p>
+    <h4>Hyperlinks Internos</h4>
+    <p>Os hyperlinks internos são links que redirecionam para uma seção ou parágrafo da página atual, usados muitas vezes em páginas com textos muito longos. Para colocarmos os<br> hyperlinks internos você vai utilizar a mesma tag HREF com algumas mudanças.No lugar do link da página você vai colocar #referencia, ficará assim <br>< a href="#referencia">Conteúdo refenciado< /a>, então na próxima linha você colocará < a name="referencia">< /a>, por fim ficará dessa forma:
+        <br>
+        <br>&ensp;&ensp;< a href="#referencia">Conteúdo referenciado< /a>
+        <br>&ensp;&ensp;< a name="referencia">< /a>
+        </p>
+    <h4>Hyperlinks Locais</h4>
+    <p>Os hyperlinks locais são links que apontam para páginas de um mesmo site. Para fazer isso continuaremos utilizando a tag HREF, mas no lugar do link da página colocamos o <br>nome do arquivo html, dessa forma < a href="arquivo.html">Conteúdo referenciado< /a>
+        </p>
+
+</body>
